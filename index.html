@@ -5,63 +5,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="PORUBU,ポルブ,ぽるぶ,hobymour,hoby氏,ほび,ほびぃ,ほびぃ氏,ほびぃさん,eletoro,エレトロ">
-    <meta name="description" content="porubu.com">
+    <meta name="description" content="A Porubu's Portofolio Website.">
     <title>PORUBU.com</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="alternate" hreflang="en" lang="en" href="https://www.porubu.com/en/"><!--英語-->
 </head>
 <body>
+    <!-- ヘッダー -->
     <header>
+        <!-- ページタイトル -->
         <h1>PORUBU.com</h1>
-        <!-- 内部リンクナビ -->
+        <!-- ナビゲーション -->
         <nav>
             <ul class="menu">
                 <br>
-                <li><a href="http://www.porubu.com/experiment/">Experiment</a> | </li>
-                <li><a href="http://blog.porubu.com">Blog</a> | </li>
-                <li><a href="http://thewheatricks0325.hatenablog.com/">Blog 2</a> | </li>
-                <li><a href="http://diary.porubu.com/">Diary</a> | </li>
-                <li><a href="http://forum.porubu.com/">Forum</a> | </li><br>
-                <li><a href="http://misskey.porubu.com/">Misskey</a> | </li>
-                <li><a href="http://misskey.io/porubu/">Misskey</a> | </li>
-                <li><a href="http://twitter.com/HobH0bima">Twitter</a> | </li>
-                <li><a href="http://patreon.com/porubu">Patreon</a></li>
+                <li><a href="#aboutme">About Me</a> | </li>
+                <li><a href="#contents">Contents</a> | </li>
+                <li><a href="https://thewheatricks0325.hatenablog.com/">Blog</a> | </li></r>
+                <li><a href="https://diary.porubu.com/">Diary</a> | </li>
+                <li><a href="https://www.shumihub.net/">ShumiHub</a> | </li>
+                <li><a href="https://mk.shumihub.net/">Misskey (SH)</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+
+
+    <!-- メインコンテンツ -->
+    <main id="contents">
         <!-- 自己紹介 -->
-        <section id="contents">
-            <!-- 上部 -->
-            <div id="about" class="clearfix">
-                <img src="icon.png" width="200" id="icon" alt="アイコン" class="icon">
-                <h2>PORUBU</h2> 
-                <ul class="aboutme">
-                    <li>Student</li>
-                    <li>Mail: hobymour[at]gmail.com</li>
-                    <li>Web: https://www.porubu.com/</li>
-                </ul>
-                <p class="more"><a href="" onclick="window.open('more.html','window1','width=300, height=700, scrollbars=yes, noopener')">...more(別ウィンドウで開きます)</a></p>
-            </div>
-            <!-- 下部 -->
-            <section id="links" class="clear">
-                <ul class="menu">
-                    <li><a href="https://msk.porubu.com/">PORUBUskey</a>・</li>
-                    <li><a href="http://twitter.com">Twitter</a>・</li>
-                    <li><a href="https://discord.gg/XKwHcn6aMy">Discordサーバー</a>・</li>
-                    <li><a href="http://github.com/">GitHub</a></li>
-                </ul>
+        <section id="whatido">
+            <!-- 自己紹介上部 -->
+            <section id="upper">
+                <div class="aboutme" class="clearfix">
+                    <img src="icon.png" width="150" id="icon" alt="アイコン" class="icon">
+                    <p id="name"><b id="name"> PORUBU</b><span>(aka hobymour / eletoro)</span></p>
+                    <ul class="aboutme">
+                        <li>学生（浪人中） / 
+                            日本、北海道出身・埼玉県在住 / 
+                            3月25日生まれ / 男性 / 
+                            「Shumihub」運営</li>
+                        <li>Mail: hobymour[at]gmail.com</li>
+                        <li>Web: https://www.porubu.com/</li>
+                    </ul>
+                    <p class="more"><a href="contents/more.html">もっと見る</a></p>
+                </div>
+            </section>
+            
+            <!-- 自己紹介下部-->
+            <section>
+                <section class="clear">
+                    <h3>What i do</h3>
+                    <ul>
+                        <p>HTML, CSS, Home Server, Video Editing(DaVinci Resolve, iMovie, AviUtl, YMM4), Illustration, Windows, macOS, Linux(Ubuntu)</p>
+                        <p class="more"><a href="whatido.html">もっと見る</a></p>
+                    </ul>
+                </section>
+                <section class="clear">
+                    <h3>What i use</h3>
+                    <ul id="whatido">
+                        <li>MacBook Pro 2021 （M1 Pro、メインPC）</li>
+                        <li>Raspberry Pi 3 Model B+（サーバー）</li>
+                        <li class="more"><a href="pcs.html">もっと見る</a></li>
+                    </ul>
+                </section>
+                <section id="menuli" class="clear">
+                    <h3>social medias</h3>
+                    <ul class="menu">
+                        <li><a href="https://mk.shumihub.net/">Misskey (Shumihub)</a>・</li>
+                        <li><a href="https://discord.gg/XKwHcn6aMy">Discordサーバー</a>・</li>
+                        <li><a href="https://github.com/porubu0325">GitHub</a>・</li>
+                        <li><a href="https://discord.gg/XKwHcn6aMy">Discord</a></li>
+                    </ul>
+                    <p class="more"><a href="links.html">もっと見る</a></p>
+                </section>
             </section>
         </section>
+<<<<<<< HEAD
         <!-- What's New -->
         <section id="whatsnew">
             <h2>【重要なお知らせ】PORUBUskey（misskey.porubu.com）について</h2>
             <p> 現在、misskey.porubu.comがエラーにより使用できない状態になっています。<br>
                 対処法が今のところないため、新しく作成した<a href="https://mk.shumihub.net/">シュミスキー</a>の利用を推奨します。</p>
+=======
+
+
+        <!-- コンテンツ部 -->
+        <section>
+            <!-- What's New -->
+            <section id="whatsnew">
+                <h2>What's new</h2>
+                <table>
+                    <tr>
+                        <th>2023.04.20</th>
+                        <td>サイトをリニューアルしました。</td>
+                    </tr>
+                    <tr>
+                        <th>2022/09</th>
+                        <td>サイトをリニューアルしました。</td>
+                    </tr>
+                </table>
+            </section>
+            <!-- My Projects（作品一覧） -->
+            <section id="projects">
+                <h2>My Projects</h2>
+                <h3>Shumi Hub</h3>
+                    <p>コミュニティサイトを運営しています。</p>
+            </section>
+            <!-- 習熟度 -->
+            <!-- Link（相互リンク） -->
+                <h2>Links</h2>
+                <h3>内部リンク</h3>
+                    <ul class="menu">
+                        <li><a href="https://blog.porubu.com/">Blog</a>・</li>
+                        <li><a href="https://diary.porubu.com/">Diary</a>・</li>
+                    </ul>
+                <h3>相互リンク</h3>
+                    <p>募集中 Discord・Misskey・メールからどうぞ</p>
+>>>>>>> 2183056 (初コミット)
         </section>
     </main>
     <!-- Copyright -->
-    <p>(C) 2016 - 2023 PORUBU<br>
-    PORUBU.comは届出電気通信事業者（届出番号：A-04-20226、令和4年11月21日届出）です。</p>
+    <footer>
+        <small>
+            (C) 2016 - 2023 PORUBU All Rights Reserved.<br>
+            最終更新日: 2023.04.20<br>
+            PORUBU.comおよびShumiHubは届出電気通信事業者（届出番号：A-04-20226、令和4年11月21日届出）です。
+        </small>
+    </footer>
 </body>
 </html>
+
+
+<!-- メモ
+    使用PC
+        メインPC: MacBook Pro 2021
+-->
