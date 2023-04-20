@@ -1,0 +1,129 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/* 共通設定 */
+    /*背景の設定*/
+    body {
+        text-align: center;
+        margin: auto;
+        min-width: 600px auto;
+        max-width: 800px auto;
+        background: #ffffff ;
+        font-family: Arial, Helvetica, "メイリオ", "ヒラギノ角ゴ", sans-serif;
+    }
+    /* リンク色 */
+    a {
+        color:#161616;
+    }
+    a:hover {
+        color: #3257ff;
+        text-decoration: none;
+    }
+    /* メニュー */
+    .menu li {
+        list-style-type: none;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* セクション間隔 */ 
+
+/* ヘッダー */
+    header {
+        min-width: 200px auto;
+        max-width: 500px auto;
+        margin-bottom: 50px;
+        display: block;
+    }
+    /* ページタイトル */
+    h1 {
+        padding-left: 80px;
+        float: left;
+        color: #020202;
+        text-shadow: 1px 1px 2px #adadad;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* ナビゲーション */
+    nav {
+        text-decoration: none;
+    }
+    /* セクション間隔 */
+    #whatido > section + section {
+        margin-top: 60px;
+    }
+
+
+/* メインセクション */
+main{
+    text-align: center;
+    color: #696969;
+    min-width: 600px;
+    max-width: 700px;
+    border-radius: 1%;
+    margin: 20px auto;
+    padding: 40px 40px;
+    background: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+    /* 自己紹介枠 */
+    #name {
+        text-align: left;
+    }
+    #name b {
+        font-size: 150%;
+    }
+    .aboutme li {
+        text-align: left;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 120%;
+
+        font-family: 'Roboto', sans-serif;
+    }
+    .icon {
+        float: left;
+        margin-right: 20px;
+        border-radius: 20%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .name {
+        font: bolder;
+        font-size: 200%;
+        float: left;
+    }
+    .more {
+        text-align: right;
+    }
+    #whatido {
+        list-style-type: none;
+        text-align: left;
+    }
+    #menu {
+        list-style-type: none;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+    }
+/* 大見出し */
+/* 小見出し */
+/* もっと見る リンク */
+/* リンク種別アイコン */
+/*フォントの設定*/
+footer {
+    font-size: 75%;
+}
+.copyright {
+    font-size: 75%;
+}
+/* その他 */
+.clear {
+    clear: both;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 下部 */
+#lower {
+    text-align: left;
+}
