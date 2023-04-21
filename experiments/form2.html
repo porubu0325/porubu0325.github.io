@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <main>
+        <h1>お問い合わせフォーム</h1>
+        <p>サイトへのご意見やご感想を募集しております。</p>
+        <form id="entryForm" action="#" method="post">
+            <p><strong><span class="require">※</span>は必須項目です。</strong></p>
+            <h3>1.あなたの情報</h3>
+            <table>
+                <tr>
+                    <th>お名前※</th>
+                    <td><input type="text" name="name" required autofocus placeholder="hobyさん"></td>
+                </tr>
+                <tr>
+                    <th>メールアドレス※</th>
+                    <td><input type="email" name="email" placeholder=example@example.com"></td>
+                </tr>
+                <tr>
+                    <th>年代</th>
+                    <td>
+                        <select name="age">
+                            <option value="" selected> 選択してください</option>
+                            <option value="1">10代</option>
+                            <option value="2">20代</option>
+                            <option value="3">30代</option>
+                            <option value="4">40代</option>
+                            <option value="5">50代</option>
+                            <option value="6">60代以上</option>
+                            <option value="7">未回答</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>性別</th>
+                    <td>
+                        <input type="radio" name="gender" id="unselected" checked><label for="unselected">選択してください</label>
+                        <input type="radio" name="gender" id="male" value="男性"><label for="male">男性</label>
+                        <input type="radio" name="gender" id="female" value="女性"><label for="female">女性</label>
+                        <input type="radio" name="gender" id="unknown" value="未回答"><label for="unknown">未回答</label>
+                    </td>
+                </tr>
+            </table>
+            <h3>2.あなたの使用するコンピュータの情報</h3>
+            <table>
+                <tr>
+                    <th>OS（基本ソフト）</th>
+                    <td>
+                        <select name="os">
+                            <option value="" selected>選択してください</option>
+                            <option value="1">Windows 11</option>
+                            <option value="2">Windows 10</option>
+                            <option value="3">macOS</option>
+                            <option value="4">Ubuntu系</option>
+                            <option value="5">Debian系</option>
+                            <option value="6">CentOS系</option>
+                            <option value="7">RedHat系</option>
+                            <option value="8">FreeBSD系</option>
+                            <option value="9">そのほか</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>コンピュータの画像</th>
+                    <td><input type="file" name="photo"></td>
+                </tr>
+            </table>
+            <h3>3.そのほか</h3>
+            <table>
+                <tr>
+                    <th>コメント※</th>
+                    <td><textarea name="comment" rows="10" cols="50" ></textarea required></td>
+                </tr>
+            </table>
+            <div>
+                <input type="reset" value="クリア">
+                <input type="submit" vault="投稿">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
