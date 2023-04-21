@@ -2,14 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 /* 共通設定 */
-    /*背景の設定*/
+    /*背景*/
     body {
-        text-align: center;
+        text-align: left;
         margin: auto;
         min-width: 600px auto;
-        max-width: 800px auto;
-        background: #ffffff ;
-        font-family: Arial, Helvetica, "メイリオ", "ヒラギノ角ゴ", sans-serif;
+        max-width: 1000px auto;
+        background: #7c7c7c ;
+        font-family: Helvetica, Arial, "メイリオ", "ヒラギノ角ゴ", sans-serif;
     }
     /* リンク色 */
     a {
@@ -26,24 +26,52 @@
         font-family: 'Roboto', sans-serif;
     }
     /* セクション間隔 */ 
+    main > section + section {
+        margin-top: 80px;
+    }
+    /* 大見出し */
+    h2 {
+        padding: 10px;
+        margin-bottom: 30px;
+        text-align: left;
+        border-left: 20px solid #e4e4e4;
+        color: #626362;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+        border-radius: 10px;
+    }
+    h2 span {
+        font-weight: normal;
+        font-size: 60%;
+    }
+    h3 {
+        border-left: 10px solid #e2e2e2;
+        padding: 5px;
+    }
 
 /* ヘッダー */
     header {
-        min-width: 200px auto;
-        max-width: 500px auto;
-        margin-bottom: 50px;
+        padding: 5px;
+        border-bottom: 2px solid #d0d0d0;
         display: block;
+        background-color: #f7f7f7;
+        color: #FFF ;
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        
     }
     /* ページタイトル */
-    h1 {
-        padding-left: 80px;
+    header h1 {
         float: left;
+        padding-left: 40px;
         color: #020202;
-        text-shadow: 1px 1px 2px #adadad;
+        text-shadow: 2px 2px 4px #adadad;
         font-family: 'Roboto', sans-serif;
+        font-size: 200%;
     }
     /* ナビゲーション */
     nav {
+        padding-right: 40px;
+        text-align: right;
         text-decoration: none;
     }
     /* セクション間隔 */
@@ -53,31 +81,30 @@
 
 
 /* メインセクション */
-main{
-    text-align: center;
-    color: #696969;
-    min-width: 600px;
-    max-width: 700px;
+main {
+    color: #646464;
+    min-width: 300px;
+    max-width: 800px;
     border-radius: 1%;
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 40px 40px;
-    background: #f8f8f8;
+    background: #faf8f8;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
     /* 自己紹介枠 */
-    #name {
-        text-align: left;
+    h3 span {
+        font-size: 70%;
+        font-weight: normal;
     }
     #name b {
         font-size: 150%;
+        margin-inline: 10px;
     }
     .aboutme li {
         text-align: left;
         list-style-type: none;
         text-decoration: none;
-        font-size: 120%;
-
-        font-family: 'Roboto', sans-serif;
+        font-size: 100% auto;
     }
     .icon {
         float: left;
@@ -90,8 +117,14 @@ main{
         font-size: 200%;
         float: left;
     }
+    /* もっと見る */
     .more {
         text-align: right;
+    }
+    .more::after {
+        content: text(→);
+        margin-left: 3px;
+        vertical-align: middle;
     }
     #whatido {
         list-style-type: none;
@@ -102,6 +135,24 @@ main{
         display: inline-block;
         font-family: 'Roboto', sans-serif;
     }
+
+/* What's New */
+table {
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+th {
+    border-collapse: collaspe;
+    background-color: #d2cfcf;
+    text-align: center;
+}
+td {
+    
+    padding-left: 10px;
+    background-color: #e5e2e2;
+}
+
 /* 大見出し */
 /* 小見出し */
 /* もっと見る リンク */
@@ -126,4 +177,22 @@ footer {
 /* 下部 */
 #lower {
     text-align: left;
+}
+
+footer {
+    padding: 5px;
+    border-bottom: 2px solid #d0d0d0;
+    display: block;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+
+/* お問い合わせフォーム */
+.button {
+    text-align: center;
+    width: 200px;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 1em;
 }
