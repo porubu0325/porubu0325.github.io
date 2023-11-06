@@ -1,14 +1,18 @@
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
+html, body {
+    font-family: Helvetica, Arial, "メイリオ", "ヒラギノ角ゴ", sans-serif;
+}
+ 
 /* 共通設定 */
     /*背景*/
-    body {
+    html, body {
         text-align: left;
         margin: auto;
         min-width: 600px auto;
         max-width: 1000px auto;
-        background: #7c7c7c ;
+        background: #daefed;
         font-family: Helvetica, Arial, "メイリオ", "ヒラギノ角ゴ", sans-serif;
     }
     /* リンク色 */
@@ -34,7 +38,7 @@
         padding: 10px;
         margin-bottom: 30px;
         text-align: left;
-        border-left: 20px solid #e4e4e4;
+        border-left: 20px solid #096d31;
         color: #626362;
         box-shadow: 0 0 10px rgba(0,0,0,0.2);
 
@@ -45,16 +49,16 @@
         font-size: 60%;
     }
     h3 {
-        border-left: 10px solid #e2e2e2;
+        border-left: 10px solid #5d9d80;
         padding: 5px;
     }
 
 /* ヘッダー */
     header {
         padding: 5px;
-        border-bottom: 2px solid #d0d0d0;
+        border-bottom: 2px solid #007133;
         display: block;
-        background-color: #f7f7f7;
+        background-color: #9eccb1;
         color: #FFF ;
         box-shadow: 0 0 5px rgba(0,0,0,0.2);
         
@@ -88,8 +92,6 @@ main {
     border-radius: 1%;
     margin: 40px auto;
     padding: 40px 40px;
-    background: #faf8f8;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
     /* 自己紹介枠 */
     h3 span {
@@ -107,7 +109,7 @@ main {
         font-size: 100% auto;
     }
     .icon {
-        float: left;
+        float: right;
         margin-right: 20px;
         border-radius: 20%;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
