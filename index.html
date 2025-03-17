@@ -37,7 +37,7 @@
             <!-- 自己紹介上部 -->
             <section id="upper">
                 <div class="aboutme" class="clearfix">
-                    <img src="icon.png" width="150" id="icon" alt="アイコン" class="icon">
+                    <img src="images/icon.png" width="150" id="icon" alt="アイコン" class="icon">
                     <h3>PORUBU <span>(aka hobymour / eletoro)</span></h3>
                     <ul class="aboutme">
                         <li>学生（浪人中）
@@ -59,7 +59,7 @@
                     <h3>What i do</h3>
                     <ul>
                         <p>HTML, CSS, Home Server, Video Editing(DaVinci Resolve, iMovie, AviUtl, YMM4), Illustration, Windows, macOS, Linux(Ubuntu)</p>
-                        <p class="more"><a href="whatido.html">もっと見る</a></p>
+                        <p class="more"><a href="profile/whatido.html">もっと見る</a></p>
                     </ul>
                 </section>
                 <!--何を使っているか-->
@@ -68,19 +68,18 @@
                     <ul id="whatido">
                         <li>MacBook Pro 2021 （M1 Pro、メインPC）</li>
                         <li>Raspberry Pi 3 Model B+（サーバー）</li>
-                        <li class="more"><a href="pcs.html">もっと見る</a></li>
+                        <li class="more"><a href="profile/pcs.html">もっと見る</a></li>
                     </ul>
                 </section>
                 <!-- ソーシャル -->
                 <section id="menuli" class="clear">
                     <h3>social medias</h3>
                     <ul class="menu">
-                        <li><a href="https://mk.shumihub.net/@porubu">Misskey (Shumihub)</a>・</li>
-                        <li><a href="https://mk.porubu.com/@porubu">Misskey (PORUBU.com)</a>・</li>
+                        <li><a href="https://mi.hobymour.net/@porubu">Misskey (Shumihub)</a>・</li>
+                        <li><a href="https://mi.porubu.com/@porubu">Misskey (PORUBU.com)</a>・</li>
                         <li><a href="https://misskey.io/@porubu">Misskey (io)</a>・</li>
                         <li><a href="https://discord.gg/XKwHcn6aMy">Discordサーバー</a>・</li>
                         <li><a href="https://github.com/porubu0325">GitHub</a>・</li>
-                        <li><a href="https://discord.gg/XKwHcn6aMy">Discord</a></li>
                     </ul>
                     <p class="more"><a href="links.html">もっと見る</a></p>
                 </section>
@@ -90,33 +89,9 @@
         <!-- コンテンツ部 -->
         <!-- What's New -->
         <section id="whatsnew">
+            <iframe src="contents/whatsnew.html" height="200" width="500"></iframe>
             <h2>What's new <span>更新履歴</span></h2>
-            <table>
-                <tr>
-                    <th>2023.11.21</th>
-                    <td>「プロフィール」を更新しました。</td>
-                </tr>
-                <tr>
-                    <th>2023.11.4</th>
-                    <td>「ブログ」リンクを変更しました。</td>
-                </tr>
-                <tr>
-                    <th>2023.10.13</th>
-                    <td>「日記」を廃止しました。今後は「ブログ」のみの更新をします。</td>
-                </tr>
-                <tr>
-                    <th>2023.04.21</th>
-                    <td>サイトを更新しました。</td>
-                </tr>
-                <tr>
-                    <th>2023.04.20</th>
-                    <td>サイトをリニューアルしました。</td>
-                </tr>
-                <tr>
-                    <th>2022.09</th>
-                    <td>サイトをリニューアルしました。</td>
-                </tr>
-            </table>
+
         </section>
         <!-- My Projects（作品一覧） -->
         <section id="contents">
@@ -125,7 +100,7 @@
                 <p>コミュニティサイトを運営しています。</p>
             <h3>Discordサーバー</h3>
                 <p>PORUBU.com・Planetedで共通のDiscordサーバーです。</p>
-                <iframe src="https://discord.com/widget?id=867945101329039370&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                <iframe id="center" src="https://discord.com/widget?id=867945101329039370&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </section>
         <!-- 習熟度 -->
         <!-- Link（相互リンク） -->
@@ -137,7 +112,11 @@
                     <li><a href="https://diary.porubu.com/">Diary</a>・</li>
                 </ul>
             <h3>相互リンク</h3>
+                <ul class="menu">
+                    <li><a href="http://eap.vg/"><img src="https://eap.vg/img/eap-banner.gif" alt="" srcset=""><br>かんたん宛名検索さん</a></li>
+                </ul>
                 <p>募集中 Discord・Misskey・メールからどうぞ</p>
+
         </section>
         <!-- 支援 -->
         <section>

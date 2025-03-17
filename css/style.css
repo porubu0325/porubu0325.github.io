@@ -119,6 +119,10 @@ main {
         font-size: 200%;
         float: left;
     }
+    /* 中央にする */
+    .center {
+        text-align: center;
+    }
     /* もっと見る */
     .more {
         text-align: right;
