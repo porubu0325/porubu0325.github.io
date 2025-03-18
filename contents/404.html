@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+
+    <!-- CSS読み込み -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div id="headers">
+          <div id="header_fixed">
+            <div id="header"></div>
+          </div>
+        </div>
+      </header>
+      
+    <section>
+        <h2>ページが見つかりません</h2>
+        <p>検索中のページは、削除された、名前が変更された、または現在利用できない可能性があります。</p>
+    </section>
+
+
+        <p>次のことを試してください</p>
+
+           <script>
+                const messages1 = [
+                  'printf("<b>404 Not Found</b>");',
+                  'print (\'<b>404 Not Found</b>\')',
+                  'mes "<b>404 Not Found</b>"',
+                  'echo("<b>404 Not Found</b>");',
+                  'std::cout << "<b>404 Not Found</b>" << std::endl;',
+                  'System.out.println("<b>404 Not Found</b>");',
+                  'console.log("<b>404 Not Found</b>");',
+                  'Concole.WriteLine("<b>404 Not Found</b>");',
+                  '&lt;h1&gt;<b>404 Not Found</b>&lt;/h1&gt;'
+                ];
+
+                const messageNo1 = Math.floor( Math.random() * messages1.length);
+                document.write(messages1[messageNo1]);
+          </script>
+    <a href="/">トップページへ</a>
+
+    <footer class="footer_class">
+        <div id="footer"></div>
+  </footer>
+</body>
+</html>

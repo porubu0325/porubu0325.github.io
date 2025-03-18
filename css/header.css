@@ -1,0 +1,30 @@
+/* ヘッダー */
+header {
+    padding: 5px;
+    border-bottom: 2px solid #007133;
+    display: block;
+    background-color: #9eccb1;
+    color: #FFF ;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    
+}
+/* ページタイトル */
+header h1 {
+    float: left;
+    padding-left: 40px;
+    color: #020202;
+    text-shadow: 2px 2px 4px #adadad;
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+}
+/* ナビゲーション */
+nav {
+    padding-right: 40px;
+    text-align: right;
+    text-decoration: none;
+}
+/* セクション間隔 */
+#whatido > section + section {
+    margin-top: 60px;
+}
+
