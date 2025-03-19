@@ -16,32 +16,43 @@
           </div>
         </div>
       </header>
-      
-    <section>
+    <main>
+      <section>
         <h2>ページが見つかりません</h2>
         <p>検索中のページは、削除された、名前が変更された、または現在利用できない可能性があります。</p>
-    </section>
+      </section>
 
-
+      <section>
         <p>次のことを試してください</p>
+        <ul>
+          <li>アドレスバーにページアドレスを入力した場合は、ページアドレスを正しく入力したかどうかを確認してください</li>
+          <li>https://www.porubu.com/ ホームページを開いてから、表示する情報へのリンクを探してください。</li>
+          <li>別のリンク先を表示するには、<a href="javascript:history.go(-1)">「戻る」</a>ボタンをクリックしてください</li>
+          <li><a href="https://www.duckduckgo.com/">「検索」</a>ボタンをクリックして、インターネット上で情報を検索してください。</li>
+        </ul>
+      </section>
+      <section>
+        <script>
+          const messages1 = [
+            'printf("<b>404 Not Found</b>");',
+            'print (\'<b>404 Not Found</b>\')',
+            'mes "<b>404 Not Found</b>"',
+            'echo("<b>404 Not Found</b>");',
+            'std::cout << "<b>404 Not Found</b>" << std::endl;',
+            'System.out.println("<b>404 Not Found</b>");',
+            'console.log("<b>404 Not Found</b>");',
+            'Concole.WriteLine("<b>404 Not Found</b>");',
+            '&lt;h1&gt;<b>404 Not Found</b>&lt;/h1&gt;'
+          ];
 
-           <script>
-                const messages1 = [
-                  'printf("<b>404 Not Found</b>");',
-                  'print (\'<b>404 Not Found</b>\')',
-                  'mes "<b>404 Not Found</b>"',
-                  'echo("<b>404 Not Found</b>");',
-                  'std::cout << "<b>404 Not Found</b>" << std::endl;',
-                  'System.out.println("<b>404 Not Found</b>");',
-                  'console.log("<b>404 Not Found</b>");',
-                  'Concole.WriteLine("<b>404 Not Found</b>");',
-                  '&lt;h1&gt;<b>404 Not Found</b>&lt;/h1&gt;'
-                ];
+          const messageNo1 = Math.floor( Math.random() * messages1.length);
+          document.write(messages1[messageNo1]);
+        </script>
+        <a href="/">トップページへ</a>
+      </section>
+    </main>
 
-                const messageNo1 = Math.floor( Math.random() * messages1.length);
-                document.write(messages1[messageNo1]);
-          </script>
-    <a href="/">トップページへ</a>
+
 
     <footer class="footer_class">
         <div id="footer"></div>
