@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 文字セット指定-->
+        <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="PORUBU,ポルブ,ぽるぶ,hobymour,hoby氏,ほび,ほびぃ,ほびぃ氏,ほびぃさん,eletoro,エレトロ">
-    <meta name="description" content="A Porubu's Portofolio Website.">
-    <title>PORUBU.com</title>
+    <!-- ひな型コード 検索エンジン向けの情報を提供 -->
+        <meta name="keywords" content="PORUBU,ポルブ,ぽるぶ,hobymour,hoby氏,ほび,ほびぃ,ほびぃ氏,ほびぃさん,eletoro,エレトロ">
+        <meta name="description" content="A Porubu's Portofolio Website.">
+    <!-- title要素...検索エンジンなどで表示される -->
+        <title>PORUBU.com</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="alternate" hreflang="en" lang="en" href="https://www.porubu.com/en/"><!--英語-->
 </head>
 <body>
-    <!-- ヘッダー -->
+    <!-- header ... 文章およびセクションのヘッダー領域 -->
     <header>
         <!-- ページタイトル -->
-        <!-- ナビゲーション -->
         <h1>PORUBU.com</h1>
+        <!-- nav ... ナビゲーション 各種コンテンツへのリンク -->
         <nav>
+            <br>
+            <!-- ul ... 箇条書きリスト（順不同）、li要素とセットで使用 -->
             <ul class="menu">
-                <br>
                 <li><a href="#aboutme">About Me</a> | </li>
                 <li><a href="#contents">Contents</a> | </li>
                 <li><a href="https://thewheatricks0325.hatenablog.com/">ブログ（旧）</a> | </li></r>
@@ -29,11 +32,14 @@
     </header>
 
 
-    <!-- メインコンテンツ -->
+    <!-- メインコンテンツ領域 -->
     <main>
+        <!-- コンテンツ1 自己紹介 -->
         <h2 id="aboutme">About Me <span>自己紹介</span></h2>
         <!-- 自己紹介 -->
+        <!-- section ... 見出しを伴う一般的な論理構造セクション -->
         <section id="whatido">
+            <!-- article ... それだけで独立した自己完結セクション -->
             <!-- 自己紹介上部 -->
             <section id="upper">
                 <div class="aboutme" class="clearfix">
@@ -52,6 +58,7 @@
                 </div>
             </section>
             
+            <!-- aside ... 補足的なセクション-->
             <!-- 自己紹介下部-->
             <section>
                 <section class="clear">
@@ -62,6 +69,7 @@
                         <p class="more"><a href="contents/whatido.html">もっと見る</a></p>
                     </ul>
                 </section>
+                <!-- 習熟度 -->
                 <!--何を使っているか-->
                 <section class="clear">
                     <h3>What i use</h3>
@@ -87,14 +95,13 @@
             </section>
         </section>
 
-        <!-- コンテンツ部 -->
-        <!-- What's New -->
+        <!-- コンテンツ2 What's New -->
         <section id="whatsnew">
             <iframe src="contents/whatsnew.html" height="200" width="500"></iframe>
             <h2>What's new <span>更新履歴</span></h2>
 
         </section>
-        <!-- My Projects（作品一覧） -->
+        <!-- コンテンツ3 My Projects（作品一覧） -->
         <section id="contents">
             <h2>Contents <span>コンテンツ</span></h2>
             <h3>Shumi Hub</h3>
@@ -103,8 +110,7 @@
                 <p>PORUBU.com・Planetedで共通のDiscordサーバーです。</p>
                 <iframe id="center" src="https://discord.com/widget?id=867945101329039370&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </section>
-        <!-- 習熟度 -->
-        <!-- Link（相互リンク） -->
+        <!-- コンテンツ4 Link（相互リンク） -->
         <section>
             <h2>Links <span>リンク</span></h2>
             <h3>内部リンク</h3>
@@ -120,7 +126,7 @@
                 <p>募集中 Discord・Misskey・メールからどうぞ</p>
 
         </section>
-        <!-- 支援 -->
+        <!-- コンテンツ5 支援リンク集 -->
         <section>
             <h2>支援 <span>Support</span></h2>
             <h3>Buy me a coffee</h3>
@@ -128,7 +134,7 @@
             <h3>Kyash</h3>
         </section>
     </main>
-    <!-- Copyright -->
+    <!-- footer ... 文書およびセクションのフッター領域 -->
     <footer>
         <small>
             (C) 2016 - 2023 PORUBU All Rights Reserved.<br>
@@ -141,6 +147,18 @@
 
 
 <!-- メモ
-    使用PC
-        メインPC: MacBook Pro 2021
+    h1/h2/h3/h4/h5/h6 ... 見出し
+    p .. 段落
+    ul ... 箇条書きリスト（順不同）、li要素とセットで使用
+    ol ... 順序あり箇条書きリスト、li要素とセットで使用
+    dl ... 記述リスト、dt・dd要素とセットで使用
+    table ... 表組、tr、td要素などとセットで使用
+    address ... 連絡先
+    div ... 任意の範囲・グループ化
+
+    a .. ハイパーリンク
+    em .. 強調
+    strong ... 重要語句
+    img ... 画像
+    span ... 任意の範囲
 -->
