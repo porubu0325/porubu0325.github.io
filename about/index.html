@@ -11,7 +11,11 @@
 </head>
 <body>
     <header>
-        <!-- 共通ヘッダー入れるとこ-->
+        <div id="headers">
+          <div id="header_fixed">
+            <div id="header"></div>
+          </div>
+        </div>
     </header>
     <!--メモ
     -->
@@ -57,7 +61,8 @@
             <h3>基本情報</h3>
                 <p>アバター画像</p>
                 <table id="maindata">
-                    <tr id="name"><th>名前</th><td>PORUBU</td></tr>
+                    <tr id="name"><th>名前（本名）</th><td>非公開</td></tr>
+                    <tr id="screenname"><th>スクリーンネーム</th><td>hob（2025年8月までPORUBU）</td></tr>
                     <tr id="age"><th>年齢</th><td>秘密</td></tr>
                     <tr id="gender"><th>性別</th><td>男</td></tr>
                     <tr id="birth"><th>誕生日</th><td>3月25日</td></tr>
@@ -67,14 +72,22 @@
         </section>
 
         <!-- 詳しい情報 -->
-        <section id="moredata">
-            <h3>詳しい情報</h3>
-          <p>2016年からネットにいます。機械とかミームとかアニメとかNLとか百合とかを触ってます。<br>何もせず家でずっとネットサーフィンしてたらいつの間にか高校終わってました。プログラミングあまりできないし、絵も上手くないのですが自分なりに頑張りたいと思っています。</p>
+        <article id="moredata">
+          <h3>詳しい情報</h3>
+          <p>幼い頃からコンピュータばかり触っており、2011年ぐらいの頃からネットにいます。機械とかミームとかアニメとかNLとか百合とかを触ってます。何もせず家でずっとネットサーフィンしてたらいつの間にか高校終わってました。プログラミングあまりできないし、絵も上手くないのですが自分なりに頑張りたいと思っています。</p>
+          <section>
+            <h4>概要</h4>
+            <ul>
+                <li>IntelやNVIDIAよりAMD派。OSはデスクトップではArch Linux系、サーバーでは安定性重視でUbuntu Server。</li>
+                <li>スマホはカスタムROMを使用しています。ブラウザはVivaldi。</li>
+                <li><b>無線最高！！！！！！！！！！！！！！！！！！！！！！！！！</b> というほどでもなく、デスクトップのような据え置きするものは有線中心。</li>
+            </ul>
+          </section>
           <section>
             <h4>名前の由来</h4>
                 <p>適当に考えました。。。でもhobymourは、趣味（hobby）から来てますが、スペル間違ってますね。。。</p>
             <h4>所属サークル</h4>
-                <p>PLANETED</p>
+                <p><a href="https://www.hobymour.net/">PLANETED</a></p>
             <h4>好きな色</h4>
                 <p>青、緑、オレンジ</p>
             <h4>話せる言語</h4>
@@ -82,56 +95,75 @@
             <h4>使用しているプログラミング言語</h4>
                 <p>HTML、CSS、JavaScript（あまり...）</p>
             <h4>使用しているソフト</h4>
-                <p>Visual Studio Code（プログラミング）、DaVinci Resolve（動画制作）、ibisPaint X（お絵描き）、GarageBand（音楽制作）</p>
+                <p>VSCodium（プログラミング）、DaVinci Resolve（動画制作）、ibisPaint X（お絵描き）、GarageBand（音楽制作）</p>
             <h4>好きなもの</h4>
                 <p>PC、文字、アニメ、ゲーム、ミーム、音楽</p>
             <h4>なぜこのサイトを作ったの</h4>
                 <p>色々な人との交流をしたかったから。</p>
             <h4>使用機種</h4>
                 <a href="pcs.html">こちらから。</a>
+            <h4>その他色々</h4>
+            <table id="maindata">
+                <tr id="height"><th>身長</th><td>165cm（2025.11時点）</td></tr>
+                <tr id="height"><th>体重</th><td>69kg（2025.11時点）</td></tr>
+                <tr id="blood"><th>血液型</th><td>B型</td></tr>
+                <tr id="height"><th>職業</th><td>フリーター（アルバイト）<br></td></tr>
+                <tr id="pcreki"><th>PC歴</th><td>16〜17年（幼少期からPCを触ってます）<br></td></tr>
+                <tr id="phone"><th>携帯端末</th><td>Google Pixel 6（中古で購入、スクリーン故障）、iPhone 6s（代理）<br></td></tr>
+                <tr id="dream"><th>目標</th><td>大学に入る<br></td></tr>
+                
+            </table>
           </section>
-        </section>
+        </article>
 
-        <section>
+        <article id="about_accounts">
             <h3>アカウント・連絡先</h3>
             <p>各種SNSのアカウントです。</p>
-            <h4>Fediverse（Misskey、Mastodonなど）</h4>
-                <ul>
-                    <li>シュミスキー: @porubu@mi.hobymour.net</li>
-                    <li>ぽるぶすきー: @porubu@mi.porubu.com</li>
-                    <li>Misskey.io: @porubu@misskey.io</li>
-                    <li>ビバ丼: @porubu@social.vivaldi.net</li>
-                    <li>今後も追加予定!お楽しみに！！！</li>
-                </ul>
-            <h4>SNS・動画・フォーラムなど</h4>
-                <ul>
-                    <li>YouTube</li>
-                    <li>ニコニコ動画</li>
-                    <li>Bluesky</li>
-                    <li>Fiicen</li>
-                    <li>Newgrounds</li>
-                    <li>mixi: 準備中</li>
-                </ul>
-            <h4>チャット・メッセンジャー</h4>
-                <p>いろいろなメッセンジャーです。</p>
-                <ul>
-                    <li>Discord: porubu</li>
-                    <li>Matrix: 準備中</li>
-                    <li>XMPP: 準備中</li>
-                </ul>
-            <h4>メール</h4>
+            <section id="accounts_fediverse">
+                <h4>Fediverse・分散型SNS系統（Misskey、Mastodonなど）</h4>
+                <table class="about_accounts">
+                    <tr id="ac_shumi"><th>シュミスキー</th><td><a href="https://mi.hobymour.net/@porubu">@porubu@mi.hobymour.net</a></td></tr>
+                    <tr id="ac_misskeyio"><th>Misskey.io</th><td><a href="https://misskey.io/@porubu">@porubu@misskey.io</a></td></tr>
+                    <tr id="ac_flowers"><th>はなみすきー</th><td><a href="https://misskey.flowers/@porubu">@porubu@misskey.flowers</a></td></tr>
+                    <tr id="Bluesky"><th>Bluesky</th><td>準備中</td></tr>
+                </table>
+            </section>
+            <section id="accounts_socials">
+               <h4>SNS・動画・フォーラムなど</h4>
+               <table class="about_accounts">
+                    <tr><th>YouTube</th><td><a href="https://www.youtube.com/@porubuchannel">メインチャンネル</a></td></tr>
+                    <tr><th>YouTube</th><td><a href="https://www.youtube.com/@WHEATWORLD-u6j">サブチャンネル</a></td></tr>
+                    <tr><th>ニコニコ動画</th><td>準備中</td></tr>
+                    <tr><th>Newgrounds</th><td>準備中</td></tr>
+                    <tr><th>mixi</th><td>準備中</td></tr>
+               </table>
+            </section>
+            <section id="accounts_chat">
+                <h4>チャット・メッセンジャー</h4>
+                <p>いろいろなメッセンジャーです。フレンド申請は基本的に仲の良い方にや身内に限定させていただきます。</p>
+                <table class="about_accounts">
+                    <tr><th>Discord</th><td>準備中</td></tr>
+                    <tr><th>Matrix</th><td>準備中</td></tr>
+                    <tr><th>XMPP</th><td>準備中</td></tr>
+                </table>
+            </section>
+            <section class="about_mail">
                 <p>[at]のところを@に変えてね。</p>
-                <ul>
-                    <li>メイン: contact[at]porubu.com</li>
-                    <li>サブ: なし</li>
-                </ul>
-            <h4>その他</h4>
+                <table class="about_mail">
+                    <tr><th>メイン</th><td>contact[at]porubu.com</td></tr>
+                    <tr><th>サブ</th><td>なし</td></tr>
+                </table>
+            </section>
+            <section class="about_other">
                 <p>その他のいろんなアカウントです</p>
-                <ul>
-                    <li>connpass</li>
-                    <li>Skeb</li>
-                </ul>
-        </section>
+                <table class="about_other">
+                    <tr><th>pixiv</th><td>準備中</td></tr>
+                    <tr><th>pixivFANBOX</th><td><a href="https://porubu.fanbox.cc/">こちら（ご支援受付中）</a></td></tr>
+                    <tr><th>connpass</th><td>準備中</td></tr>
+                    <tr><th>Skeb</th><td>準備中</td></tr>
+                </table>
+            </section>
+        </article>
 
     </main>
     <p><a href="../index.html">戻る</a></p>
@@ -140,5 +172,9 @@
         UNDERT<br>
         ALE</p> */ 
         !-->
+      
+    <footer class="footer_class">
+        <div id="footer"></div>
+    </footer>  
 </body>
 </html>
