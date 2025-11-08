@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 Not Found</title>
 
     <!-- CSS読み込み -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="../css/style_m.css" media="screen and (max-width: 767px)">
+    <link rel="stylesheet" href="../css/header.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="../css/header_m.css" media="screen and (max-width: 767px)">
 </head>
 <body>
     <header>
@@ -48,8 +51,8 @@
           const messageNo1 = Math.floor( Math.random() * messages1.length);
           document.write(messages1[messageNo1]);
         </script>
-        <a href="/">トップページへ</a>
       </section>
+      <a href="/">トップページへ</a>
     </main>
 
 

@@ -1,12 +1,12 @@
 /* ヘッダー */
 header {
+    text-align: center;
     padding: 5px;
     border-bottom: 2px solid #007133;
     display: block;
     background-color: #9eccb1;
     color: #FFF ;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    
 }
 /* ページタイトル */
 header h1 {
@@ -20,11 +20,24 @@ header h1 {
 /* ナビゲーション */
 nav {
     padding-right: 40px;
-    text-align: right;
+    text-align: center;
     text-decoration: none;
 }
 /* セクション間隔 */
 #whatido > section + section {
     margin-top: 60px;
 }
-
+ /* リンク色 */
+    a {
+        color:#161616;
+    }
+    a:hover {
+        color: #3257ff;
+        text-decoration: none;
+    }
+/* メニュー */
+    .menu li {
+        list-style-type: none;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+    }
